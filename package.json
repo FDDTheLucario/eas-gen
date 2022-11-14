@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/FDDTheLucario/eas-gen#readme",
   "devDependencies": {
+    "@types/luxon": "^3.1.0",
     "@types/node": "^14.11.2",
     "@types/terminal-kit": "^2.5.0",
     "gts": "^3.1.1",
