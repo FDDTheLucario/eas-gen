@@ -1,24 +1,7 @@
-console.log('Try npm run lint/fix!');
+import {Terminal} from 'terminal-kit';
 
-const longString =
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut aliquet diam.';
+const termkit = require('terminal-kit');
+const term: Terminal = termkit.terminal;
 
-const trailing = 'Semicolon';
-
-const why = 'am I tabbed?';
-
-export function doSomeStuff(
-  withThis: string,
-  andThat: string,
-  andThose: string[]
-) {
-  //function on one line
-  if (!andThose.length) {
-    return false;
-  }
-  console.log(withThis);
-  console.log(andThat);
-  console.dir(andThose);
-  return;
-}
-// TODO: more examples
+term.fullscreen(true);
+term('This is a test');
