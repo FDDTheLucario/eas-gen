@@ -1,4 +1,6 @@
 module.exports = {
     extends: './node_modules/gts/',
-    "indent": ["error", 4]
+    rules: {
+        indent: ['error', 4],
+    },
 };
